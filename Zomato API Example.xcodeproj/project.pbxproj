@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DBEB6C233BB1D6008F3AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB6B233BB1D6008F3AC9 /* AppDelegate.swift */; };
+		76DBEB6E233BB1D6008F3AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB6D233BB1D6008F3AC9 /* ViewController.swift */; };
+		76DBEB71233BB1D6008F3AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DBEB6F233BB1D6008F3AC9 /* Main.storyboard */; };
+		76DBEB74233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB72233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodeld */; };
+		76DBEB76233BB1D8008F3AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DBEB75233BB1D8008F3AC9 /* Assets.xcassets */; };
+		76DBEB79233BB1D8008F3AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DBEB77233BB1D8008F3AC9 /* LaunchScreen.storyboard */; };
+		76DBEB84233BB1D8008F3AC9 /* Zomato_API_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB83233BB1D8008F3AC9 /* Zomato_API_ExampleTests.swift */; };
+		76DBEB90233BB4BF008F3AC9 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB8F233BB4BF008F3AC9 /* Fetchable.swift */; };
+		76DBEB92233BB515008F3AC9 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB91233BB515008F3AC9 /* ReuseIdentifiable.swift */; };
+		76DBEB95233BB546008F3AC9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBEB94233BB546008F3AC9 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DBEB80233BB1D8008F3AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DBEB60233BB1D6008F3AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DBEB67233BB1D6008F3AC9;
+			remoteInfo = "Zomato API Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76DBEB68233BB1D6008F3AC9 /* Zomato API Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zomato API Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DBEB6B233BB1D6008F3AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76DBEB6D233BB1D6008F3AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76DBEB70233BB1D6008F3AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DBEB73233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zomato_API_Example.xcdatamodel; sourceTree = "<group>"; };
+		76DBEB75233BB1D8008F3AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DBEB78233BB1D8008F3AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76DBEB7A233BB1D8008F3AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DBEB7F233BB1D8008F3AC9 /* Zomato API ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zomato API ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DBEB83233BB1D8008F3AC9 /* Zomato_API_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zomato_API_ExampleTests.swift; sourceTree = "<group>"; };
+		76DBEB85233BB1D8008F3AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DBEB8F233BB4BF008F3AC9 /* Fetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		76DBEB91233BB515008F3AC9 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		76DBEB94233BB546008F3AC9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DBEB65233BB1D6008F3AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBEB7C233BB1D8008F3AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DBEB5F233BB1D6008F3AC9 = {
+			isa = PBXGroup;
+			children = (
+				76DBEB6A233BB1D6008F3AC9 /* Zomato API Example */,
+				76DBEB82233BB1D8008F3AC9 /* Zomato API ExampleTests */,
+				76DBEB69233BB1D6008F3AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DBEB69233BB1D6008F3AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DBEB68233BB1D6008F3AC9 /* Zomato API Example.app */,
+				76DBEB7F233BB1D8008F3AC9 /* Zomato API ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DBEB6A233BB1D6008F3AC9 /* Zomato API Example */ = {
+			isa = PBXGroup;
+			children = (
+				76DBEB93233BB52A008F3AC9 /* Managers */,
+				76DBEB8E233BB4A4008F3AC9 /* Common Protocols */,
+				76DBEB6B233BB1D6008F3AC9 /* AppDelegate.swift */,
+				76DBEB6D233BB1D6008F3AC9 /* ViewController.swift */,
+				76DBEB6F233BB1D6008F3AC9 /* Main.storyboard */,
+				76DBEB75233BB1D8008F3AC9 /* Assets.xcassets */,
+				76DBEB77233BB1D8008F3AC9 /* LaunchScreen.storyboard */,
+				76DBEB7A233BB1D8008F3AC9 /* Info.plist */,
+				76DBEB72233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodeld */,
+			);
+			path = "Zomato API Example";
+			sourceTree = "<group>";
+		};
+		76DBEB82233BB1D8008F3AC9 /* Zomato API ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DBEB83233BB1D8008F3AC9 /* Zomato_API_ExampleTests.swift */,
+				76DBEB85233BB1D8008F3AC9 /* Info.plist */,
+			);
+			path = "Zomato API ExampleTests";
+			sourceTree = "<group>";
+		};
+		76DBEB8E233BB4A4008F3AC9 /* Common Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				76DBEB8F233BB4BF008F3AC9 /* Fetchable.swift */,
+				76DBEB91233BB515008F3AC9 /* ReuseIdentifiable.swift */,
+			);
+			path = "Common Protocols";
+			sourceTree = "<group>";
+		};
+		76DBEB93233BB52A008F3AC9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				76DBEB94233BB546008F3AC9 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DBEB67233BB1D6008F3AC9 /* Zomato API Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DBEB88233BB1D8008F3AC9 /* Build configuration list for PBXNativeTarget "Zomato API Example" */;
+			buildPhases = (
+				76DBEB64233BB1D6008F3AC9 /* Sources */,
+				76DBEB65233BB1D6008F3AC9 /* Frameworks */,
+				76DBEB66233BB1D6008F3AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zomato API Example";
+			productName = "Zomato API Example";
+			productReference = 76DBEB68233BB1D6008F3AC9 /* Zomato API Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76DBEB7E233BB1D8008F3AC9 /* Zomato API ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DBEB8B233BB1D8008F3AC9 /* Build configuration list for PBXNativeTarget "Zomato API ExampleTests" */;
+			buildPhases = (
+				76DBEB7B233BB1D8008F3AC9 /* Sources */,
+				76DBEB7C233BB1D8008F3AC9 /* Frameworks */,
+				76DBEB7D233BB1D8008F3AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DBEB81233BB1D8008F3AC9 /* PBXTargetDependency */,
+			);
+			name = "Zomato API ExampleTests";
+			productName = "Zomato API ExampleTests";
+			productReference = 76DBEB7F233BB1D8008F3AC9 /* Zomato API ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DBEB60233BB1D6008F3AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Castellano;
+				TargetAttributes = {
+					76DBEB67233BB1D6008F3AC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					76DBEB7E233BB1D8008F3AC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 76DBEB67233BB1D6008F3AC9;
+					};
+				};
+			};
+			buildConfigurationList = 76DBEB63233BB1D6008F3AC9 /* Build configuration list for PBXProject "Zomato API Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DBEB5F233BB1D6008F3AC9;
+			productRefGroup = 76DBEB69233BB1D6008F3AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DBEB67233BB1D6008F3AC9 /* Zomato API Example */,
+				76DBEB7E233BB1D8008F3AC9 /* Zomato API ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DBEB66233BB1D6008F3AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBEB79233BB1D8008F3AC9 /* LaunchScreen.storyboard in Resources */,
+				76DBEB76233BB1D8008F3AC9 /* Assets.xcassets in Resources */,
+				76DBEB71233BB1D6008F3AC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBEB7D233BB1D8008F3AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DBEB64233BB1D6008F3AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBEB95233BB546008F3AC9 /* NetworkManager.swift in Sources */,
+				76DBEB90233BB4BF008F3AC9 /* Fetchable.swift in Sources */,
+				76DBEB92233BB515008F3AC9 /* ReuseIdentifiable.swift in Sources */,
+				76DBEB74233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodeld in Sources */,
+				76DBEB6E233BB1D6008F3AC9 /* ViewController.swift in Sources */,
+				76DBEB6C233BB1D6008F3AC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBEB7B233BB1D8008F3AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBEB84233BB1D8008F3AC9 /* Zomato_API_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DBEB81233BB1D8008F3AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DBEB67233BB1D6008F3AC9 /* Zomato API Example */;
+			targetProxy = 76DBEB80233BB1D8008F3AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76DBEB6F233BB1D6008F3AC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DBEB70233BB1D6008F3AC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76DBEB77233BB1D8008F3AC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DBEB78233BB1D8008F3AC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76DBEB86233BB1D8008F3AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76DBEB87233BB1D8008F3AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DBEB89233BB1D8008F3AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zomato API Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castellano.Zomato-API-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DBEB8A233BB1D8008F3AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zomato API Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castellano.Zomato-API-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76DBEB8C233BB1D8008F3AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zomato API ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castellano.Zomato-API-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zomato API Example.app/Zomato API Example";
+			};
+			name = Debug;
+		};
+		76DBEB8D233BB1D8008F3AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zomato API ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castellano.Zomato-API-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zomato API Example.app/Zomato API Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DBEB63233BB1D6008F3AC9 /* Build configuration list for PBXProject "Zomato API Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBEB86233BB1D8008F3AC9 /* Debug */,
+				76DBEB87233BB1D8008F3AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DBEB88233BB1D8008F3AC9 /* Build configuration list for PBXNativeTarget "Zomato API Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBEB89233BB1D8008F3AC9 /* Debug */,
+				76DBEB8A233BB1D8008F3AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DBEB8B233BB1D8008F3AC9 /* Build configuration list for PBXNativeTarget "Zomato API ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBEB8C233BB1D8008F3AC9 /* Debug */,
+				76DBEB8D233BB1D8008F3AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76DBEB72233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76DBEB73233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodel */,
+			);
+			currentVersion = 76DBEB73233BB1D6008F3AC9 /* Zomato_API_Example.xcdatamodel */;
+			path = Zomato_API_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76DBEB60233BB1D6008F3AC9 /* Project object */;
+}
